@@ -23,7 +23,7 @@ class Config:
 
     BOT_NAME: str = "ToxicUB"
     BOT_VERSION: str = "2.0.0"
-    BOT_REPO: str = "https://github.com/nexusub/NexusUB"
+    BOT_REPO: str = "https://github.com/toxicddos143-bilp/ToxicUB"
     OWNER_USERNAME: str = os.getenv("OWNER_USERNAME", "@SegsyToxic95")
     SUDO_USERS: list = [
         int(x) for x in os.getenv("SUDO_USERS", "").split() if x.strip().isdigit()
